@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background: linear-gradient(to bottom, #ffcc00, #120a5f) ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    font-size: 34px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+h2 {
+    font-size: 28px;
+    color: white;
+    text-align: center; 
+    margin-top: 92px; 
+}
+.container {
+    background-color: rgb(232, 227, 227);
+    height: 100px;
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0d0d0d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.inputs {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 10px;   
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.botao {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: black;
+}
+.botao:hover {
+    background: linear-gradient(to bottom, #ffcc00, #120a5f);
+    
+}
+
+.resposta {
+    background-color: rgb(232, 227, 227);
+    width: 400px;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #0d0d0d;
+    padding: 20px;
+}
+.resposta p {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 160px;
+    margin: 0 auto;
+}
+
+
+
